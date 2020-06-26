@@ -1,6 +1,12 @@
+#!/bin/bash
 clear
+pip3 install --upgrade pip
+pip3 install PyMuPDF
+pip3 install Pillow
+
 sudo cp hentaitopdf /usr/bin/hentaitopdf
 sudo chmod +x /usr/bin/hentaitopdf
+
 clear
 echo "Beat covid-19, by beating your meat
 
